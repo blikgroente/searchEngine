@@ -24,7 +24,7 @@ class SearchEngine:
         except:
             self.file_index = []
 
-    def search (self,term, search_type = 'çontains'):
+    def search (self,term, search_type = 'contains'):
         """ search for term based on search type"""
 
         # reset variables
